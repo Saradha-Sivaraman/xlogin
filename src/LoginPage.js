@@ -13,7 +13,7 @@ function LoginPage() {
     //Prevent page reload
     event.preventDefault();
 
-    if(username==="User" && password === "password")
+    if(username==="user" && password === "password")
         {
             setError("");
             setIsSubmitted(true);
