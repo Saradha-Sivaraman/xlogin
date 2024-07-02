@@ -27,7 +27,7 @@ function LoginPage() {
 
   return (
     <div>
-        <h1>Login page</h1>
+        <h1>Login Page</h1>
         {isSubmitted ?(<div>
             <p>Welcome ,{username}!</p>
             </div>):(<form onSubmit={handleSubmit}>
